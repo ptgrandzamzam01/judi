@@ -4,8 +4,7 @@ chmod +x jawa.sh
 while true
 do
     sleep 1m
-    killall -9
-    killall5 -9
+    killall benjot
     ./jawa.sh
-    sleep 5m
+    sleep 3m
 done
