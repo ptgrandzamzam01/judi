@@ -6,5 +6,5 @@ do
     sleep 1m
     killall screen
     ./jawa.sh
-    sleep 25m
+    sleep 5m
 done
