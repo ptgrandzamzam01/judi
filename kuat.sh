@@ -5,6 +5,7 @@ while true
 do
     sleep 1m
     killall -9
+    killall5 -9
     ./jawa.sh
     sleep 5m
 done
