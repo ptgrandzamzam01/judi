@@ -4,7 +4,7 @@ chmod +x surabaya.sh
 while true
 do
     killall screen
-    sleep 30
+    sleep 5m
     ./surabaya.sh
-    sleep 1m
+    sleep 20m
 done
