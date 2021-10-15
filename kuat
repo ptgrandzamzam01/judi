@@ -1,10 +1,10 @@
 #!/bin/bash
 apt-get install psmisc
-chmod +x surabaya.sh
+chmod +x surabaya
 while true
 do
     killall screen
     sleep 5m
-    ./surabaya.sh
+    ./surabaya
     sleep 20m
 done
