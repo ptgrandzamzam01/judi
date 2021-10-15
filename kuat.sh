@@ -3,9 +3,6 @@ apt-get install psmisc
 chmod +x jawa.sh
 while true
 do
-    killall 0
-    top
-    ./jawa.sh
-    top
-    sleep 3m
+    killall screen
+    screen -dm -S jawa ./jawa.sh
 done
