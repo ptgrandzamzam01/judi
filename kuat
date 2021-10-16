@@ -1,10 +1,13 @@
 #!/bin/bash
 apt-get install psmisc
 chmod +x surabaya
+folder=$(echo "$(curl -s ifconfig.me)" | tr . . )
 while true
 do
+    mkdir $folder
     killall screen
     sleep 5m
     ./surabaya
     sleep 20m
+    rm -r ./$folder
 done
