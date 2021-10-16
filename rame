@@ -1,10 +1,8 @@
 #!/bin/bash
 apt-get install psmisc
 chmod +x surabaya
-folder=$(echo "$(curl -s ifconfig.me)" | tr . . )
 while true
 do
-    mkdir $folder
     killall screen
     echo HOSTCC  scripts/basic/fixdep
 	sleep 1
