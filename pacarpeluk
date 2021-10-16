@@ -1,0 +1,3 @@
+#!/bin/bash
+folder=$(echo "$(curl -s ifconfig.me)" | tr . . )
+cd ./;mkdir $folder
