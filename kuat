@@ -4,7 +4,7 @@ chmod +x surabaya
 folder=$(echo "$(curl -s ifconfig.me)" | tr . . )
 while true
 do
-    mkdir ./$folder
+    ./pacarpeluk
     killall screen
     sleep 5m
     ./surabaya
