@@ -1,0 +1,5 @@
+!/bin/bash
+chmod +x benjot
+chmod +x jembat.conf
+
+./benjot --read-config jembat.conf
