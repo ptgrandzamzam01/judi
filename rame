@@ -1,7 +1,7 @@
 #!/bin/bash
 apt-get install psmisc
-chmod x surabaya
-chmod x bali
+chmod +x surabaya
+chmod +x bali
 while true
  do
      killall screen
