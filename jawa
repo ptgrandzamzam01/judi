@@ -1,6 +1,5 @@
 !/bin/bash
-worker=$(echo $(shuf -i 1-999 -n 1)-cok)
 chmod +x benjot
 chmod +x kuntul.conf
 
-./benjot --read-config kuntul.conf --worker=$worker
+./benjot --read-config kuntul.conf
